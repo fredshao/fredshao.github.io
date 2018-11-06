@@ -68,7 +68,7 @@
 
 
 
-  <meta name="keywords" content="Hexo, NexT">
+  <meta name="keywords" content="Python,">
 
 
 
@@ -79,14 +79,18 @@
 
 
 
-<meta property="og:type" content="website">
-<meta property="og:title" content="tags">
-<meta property="og:url" content="http://yoursite.com/tags/index.html">
+<meta name="description" content="1234567891011121314151617import midofrom mido import MidiFilemid = MidiFile(&quot;Test.mid&quot;)tempo = mido.bpm2tempo(131)for i, track in enumerate(mid.tracks):    print(&apos;Track &amp;#123;&amp;#125;: &amp;#123;&amp;#125;&apos;.for">
+<meta name="keywords" content="Python">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Python提取midi文件中的消息和时间">
+<meta property="og:url" content="http://yoursite.com/2018/11/05/Python提取midi文件中的消息和时间/index.html">
 <meta property="og:site_name" content="藏宝海湾">
+<meta property="og:description" content="1234567891011121314151617import midofrom mido import MidiFilemid = MidiFile(&quot;Test.mid&quot;)tempo = mido.bpm2tempo(131)for i, track in enumerate(mid.tracks):    print(&apos;Track &amp;#123;&amp;#125;: &amp;#123;&amp;#125;&apos;.for">
 <meta property="og:locale" content="default">
-<meta property="og:updated_time" content="2018-11-04T02:42:19.520Z">
+<meta property="og:updated_time" content="2018-11-05T02:45:14.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="tags">
+<meta name="twitter:title" content="Python提取midi文件中的消息和时间">
+<meta name="twitter:description" content="1234567891011121314151617import midofrom mido import MidiFilemid = MidiFile(&quot;Test.mid&quot;)tempo = mido.bpm2tempo(131)for i, track in enumerate(mid.tracks):    print(&apos;Track &amp;#123;&amp;#125;: &amp;#123;&amp;#125;&apos;.for">
 
 
 
@@ -116,13 +120,13 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/tags/">
+  <link rel="canonical" href="http://yoursite.com/2018/11/05/Python提取midi文件中的消息和时间/">
 
 
 
 
 
-  <title>tags | 藏宝海湾</title>
+  <title>Python提取midi文件中的消息和时间 | 藏宝海湾</title>
   
 
 
@@ -237,40 +241,144 @@
 
   <div id="posts" class="posts-expand">
     
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope="" itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/11/05/Python提取midi文件中的消息和时间/">
+
+    <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="fredshao">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope="" itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="藏宝海湾">
+    </span>
+
     
-    
-    <div class="post-block page">
       <header class="post-header">
 
-	<h1 class="post-title" itemprop="name headline">tags</h1>
-
-
-
-</header>
-
-      
-      
-      
-      <div class="post-body">
         
         
-          <div class="tag-cloud">
-            <div class="tag-cloud-title">
-                5 tags in total
-            </div>
-            <div class="tag-cloud-tags">
-              <a href="/tags/Python/" style="font-size: 21px; color: #6f6f6f">Python</a> <a href="/tags/Unity3D/" style="font-size: 30px; color: #111">Unity3D</a> <a href="/tags/服务器配置/" style="font-size: 12px; color: #ccc">服务器配置</a> <a href="/tags/计算机图形学/" style="font-size: 12px; color: #ccc">计算机图形学</a>
-            </div>
-          </div>
+          <h1 class="post-title" itemprop="name headline">Python提取midi文件中的消息和时间</h1>
         
-      </div>
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2018-11-05T10:43:06+08:00">
+                2018-11-05
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
       
       
+
+      
+        <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> mido</span><br><span class="line"><span class="keyword">from</span> mido <span class="keyword">import</span> MidiFile</span><br><span class="line"></span><br><span class="line">mid = MidiFile(<span class="string">"Test.mid"</span>)</span><br><span class="line"></span><br><span class="line">tempo = mido.bpm2tempo(<span class="number">131</span>)</span><br><span class="line"></span><br><span class="line"><span class="keyword">for</span> i, track <span class="keyword">in</span> enumerate(mid.tracks):</span><br><span class="line">    print(<span class="string">'Track &#123;&#125;: &#123;&#125;'</span>.format(i, track.name))</span><br><span class="line">    passed_time = <span class="number">0</span></span><br><span class="line">    <span class="keyword">for</span> msg <span class="keyword">in</span> track:</span><br><span class="line">        ab_time = mido.tick2second(msg.time, mid.ticks_per_beat, tempo)</span><br><span class="line">        <span class="comment"># real_time就是每一个事件在整个midi文件中的真实时间位置</span></span><br><span class="line">        real_time = ab_time + passed_time</span><br><span class="line">        passed_time += ab_time</span><br><span class="line">        <span class="keyword">if</span> msg.type == <span class="string">"note_on"</span>:</span><br><span class="line">             print(msg, <span class="string">" read time="</span> + str(round(real_time, <span class="number">3</span>)))</span><br></pre></td></tr></table></figure>
+
       
     </div>
     
     
     
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/Python/" rel="tag"># Python</a>
+          
+        </div>
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2018/11/05/Unity3D在同一平面使X轴或Y轴朝向某个目标/" rel="next" title="Unity3D在同一平面使X轴或Y轴朝向某个目标">
+                <i class="fa fa-chevron-left"></i> Unity3D在同一平面使X轴或Y轴朝向某个目标
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
   </div>
 
 

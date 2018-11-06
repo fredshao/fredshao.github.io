@@ -68,7 +68,7 @@
 
 
 
-  <meta name="keywords" content="Hexo, NexT">
+  <meta name="keywords" content="Unity3D,">
 
 
 
@@ -79,14 +79,18 @@
 
 
 
-<meta property="og:type" content="website">
-<meta property="og:title" content="tags">
-<meta property="og:url" content="http://yoursite.com/tags/index.html">
+<meta name="description" content="1234567891011// 返回的屏幕坐标用于Anchor在屏幕中心的RectTransformpublic Vector2 PlaceParticlesOnPosition(Transform _target, RectTransform canvasRect)    &amp;#123;        Vector2 ViewportPosition = Camera.main.WorldToVi">
+<meta name="keywords" content="Unity3D">
+<meta property="og:type" content="article">
+<meta property="og:title" content="UGUI RectTransform 跟随3DGameObject (世界坐标转屏幕坐标)">
+<meta property="og:url" content="http://yoursite.com/2018/11/05/UGUIRectTransform跟随3DGameObject(世界转屏幕坐标)/index.html">
 <meta property="og:site_name" content="藏宝海湾">
+<meta property="og:description" content="1234567891011// 返回的屏幕坐标用于Anchor在屏幕中心的RectTransformpublic Vector2 PlaceParticlesOnPosition(Transform _target, RectTransform canvasRect)    &amp;#123;        Vector2 ViewportPosition = Camera.main.WorldToVi">
 <meta property="og:locale" content="default">
-<meta property="og:updated_time" content="2018-11-04T02:42:19.520Z">
+<meta property="og:updated_time" content="2018-11-06T09:42:18.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="tags">
+<meta name="twitter:title" content="UGUI RectTransform 跟随3DGameObject (世界坐标转屏幕坐标)">
+<meta name="twitter:description" content="1234567891011// 返回的屏幕坐标用于Anchor在屏幕中心的RectTransformpublic Vector2 PlaceParticlesOnPosition(Transform _target, RectTransform canvasRect)    &amp;#123;        Vector2 ViewportPosition = Camera.main.WorldToVi">
 
 
 
@@ -116,13 +120,13 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/tags/">
+  <link rel="canonical" href="http://yoursite.com/2018/11/05/UGUIRectTransform跟随3DGameObject(世界转屏幕坐标)/">
 
 
 
 
 
-  <title>tags | 藏宝海湾</title>
+  <title>UGUI RectTransform 跟随3DGameObject (世界坐标转屏幕坐标) | 藏宝海湾</title>
   
 
 
@@ -237,40 +241,148 @@
 
   <div id="posts" class="posts-expand">
     
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope="" itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/11/05/UGUIRectTransform跟随3DGameObject(世界转屏幕坐标)/">
+
+    <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="fredshao">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope="" itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="藏宝海湾">
+    </span>
+
     
-    
-    <div class="post-block page">
       <header class="post-header">
 
-	<h1 class="post-title" itemprop="name headline">tags</h1>
-
-
-
-</header>
-
-      
-      
-      
-      <div class="post-body">
         
         
-          <div class="tag-cloud">
-            <div class="tag-cloud-title">
-                5 tags in total
-            </div>
-            <div class="tag-cloud-tags">
-              <a href="/tags/Python/" style="font-size: 21px; color: #6f6f6f">Python</a> <a href="/tags/Unity3D/" style="font-size: 30px; color: #111">Unity3D</a> <a href="/tags/服务器配置/" style="font-size: 12px; color: #ccc">服务器配置</a> <a href="/tags/计算机图形学/" style="font-size: 12px; color: #ccc">计算机图形学</a>
-            </div>
-          </div>
+          <h1 class="post-title" itemprop="name headline">UGUI RectTransform 跟随3DGameObject (世界坐标转屏幕坐标)</h1>
         
-      </div>
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2018-11-05T10:34:50+08:00">
+                2018-11-05
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
       
       
+
+      
+        <figure class="highlight csharp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// 返回的屏幕坐标用于Anchor在屏幕中心的RectTransform</span></span><br><span class="line"><span class="function"><span class="keyword">public</span> Vector2 <span class="title">PlaceParticlesOnPosition</span>(<span class="params">Transform _target, RectTransform canvasRect</span>)</span></span><br><span class="line"><span class="function"></span>    &#123;</span><br><span class="line"></span><br><span class="line">        Vector2 ViewportPosition = Camera.main.WorldToViewportPoint(_target.position);</span><br><span class="line">        Vector2 WorldObject_ScreenPosition = <span class="keyword">new</span> Vector2(</span><br><span class="line">            ((ViewportPosition.x * canvasRect.sizeDelta.x) - (canvasRect.sizeDelta.x * <span class="number">0.5f</span>)),</span><br><span class="line">            ((ViewportPosition.y * canvasRect.sizeDelta.y) - (canvasRect.sizeDelta.y * <span class="number">0.5f</span>)));</span><br><span class="line"></span><br><span class="line">        <span class="keyword">return</span> WorldObject_ScreenPosition;</span><br><span class="line">    &#125;</span><br></pre></td></tr></table></figure>
+
       
     </div>
     
     
     
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/Unity3D/" rel="tag"># Unity3D</a>
+          
+        </div>
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2018/11/05/Python使用枚举/" rel="next" title="Python 使用枚举">
+                <i class="fa fa-chevron-left"></i> Python 使用枚举
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2018/11/05/Unity3D鼠标拖动3D物体移动/" rel="prev" title="Unity3D鼠标拖动3D物体移动">
+                Unity3D鼠标拖动3D物体移动 <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
   </div>
 
 

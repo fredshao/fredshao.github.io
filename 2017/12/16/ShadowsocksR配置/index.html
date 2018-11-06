@@ -68,7 +68,7 @@
 
 
 
-  <meta name="keywords" content="Hexo, NexT">
+  <meta name="keywords" content="服务器配置,">
 
 
 
@@ -79,14 +79,18 @@
 
 
 
-<meta property="og:type" content="website">
-<meta property="og:title" content="tags">
-<meta property="og:url" content="http://yoursite.com/tags/index.html">
+<meta name="description" content="以下操作请使用root用户 1wget --no-check-certificate https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocksR.sh 1chmod +x shadowsocksR.sh 1./shadowsocksR.sh 2&amp;gt;&amp;amp;1 | tee shadowso">
+<meta name="keywords" content="服务器配置">
+<meta property="og:type" content="article">
+<meta property="og:title" content="shadowsocksR安装">
+<meta property="og:url" content="http://yoursite.com/2017/12/16/ShadowsocksR配置/index.html">
 <meta property="og:site_name" content="藏宝海湾">
+<meta property="og:description" content="以下操作请使用root用户 1wget --no-check-certificate https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocksR.sh 1chmod +x shadowsocksR.sh 1./shadowsocksR.sh 2&amp;gt;&amp;amp;1 | tee shadowso">
 <meta property="og:locale" content="default">
-<meta property="og:updated_time" content="2018-11-04T02:42:19.520Z">
+<meta property="og:updated_time" content="2018-02-06T09:00:18.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="tags">
+<meta name="twitter:title" content="shadowsocksR安装">
+<meta name="twitter:description" content="以下操作请使用root用户 1wget --no-check-certificate https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocksR.sh 1chmod +x shadowsocksR.sh 1./shadowsocksR.sh 2&amp;gt;&amp;amp;1 | tee shadowso">
 
 
 
@@ -116,13 +120,13 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/tags/">
+  <link rel="canonical" href="http://yoursite.com/2017/12/16/ShadowsocksR配置/">
 
 
 
 
 
-  <title>tags | 藏宝海湾</title>
+  <title>shadowsocksR安装 | 藏宝海湾</title>
   
 
 
@@ -237,40 +241,158 @@
 
   <div id="posts" class="posts-expand">
     
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope="" itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2017/12/16/ShadowsocksR配置/">
+
+    <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="fredshao">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope="" itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="藏宝海湾">
+    </span>
+
     
-    
-    <div class="post-block page">
       <header class="post-header">
 
-	<h1 class="post-title" itemprop="name headline">tags</h1>
-
-
-
-</header>
-
-      
-      
-      
-      <div class="post-body">
         
         
-          <div class="tag-cloud">
-            <div class="tag-cloud-title">
-                5 tags in total
-            </div>
-            <div class="tag-cloud-tags">
-              <a href="/tags/Python/" style="font-size: 21px; color: #6f6f6f">Python</a> <a href="/tags/Unity3D/" style="font-size: 30px; color: #111">Unity3D</a> <a href="/tags/服务器配置/" style="font-size: 12px; color: #ccc">服务器配置</a> <a href="/tags/计算机图形学/" style="font-size: 12px; color: #ccc">计算机图形学</a>
-            </div>
-          </div>
+          <h1 class="post-title" itemprop="name headline">shadowsocksR安装</h1>
         
-      </div>
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2017-12-16T18:54:41+08:00">
+                2017-12-16
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
       
       
+
+      
+        <p><strong>以下操作请使用root用户</strong></p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">wget --no-check-certificate https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocksR.sh</span><br></pre></td></tr></table></figure>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">chmod +x shadowsocksR.sh</span><br></pre></td></tr></table></figure>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">./shadowsocksR.sh 2&gt;&amp;1 | tee shadowsocksR.log</span><br></pre></td></tr></table></figure>
+<p><strong>以上三个命令执行完后ShadowsocksR已经成功运行，可以使用了</strong></p>
+<blockquote>
+<p><strong>注意，如果你是在Google Cloud Platform上安装，那么还需要配置防火墙规则，根据自己设置的端口。如果想要偷懒，这里可以设置成443端口，443端口已经在Google Cloud Paltform的防火墙规则里了。</strong></p>
+</blockquote>
+<p><strong>其他一些命令</strong></p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">./shadowsocksR.sh uninstall		# 卸载 ShadowsocksR</span><br></pre></td></tr></table></figure>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">/etc/init.d/shadowsocks start	# 启动</span><br><span class="line">/etc/init.d/shadowsocks stop	# 停止</span><br><span class="line">/etc/init.d/shadowsocks restart # 重启</span><br><span class="line">/etc/init.d/shadowsocks status  # 状态</span><br><span class="line"></span><br><span class="line">/etc/shadowsocks.json		# 配置文件路径</span><br><span class="line">/var/log/shadowsocks.log	# 日志文件路径</span><br><span class="line">/usr/local/shadowsocks		# 代码安装目录</span><br></pre></td></tr></table></figure>
+
       
     </div>
     
     
     
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/服务器配置/" rel="tag"># 服务器配置</a>
+          
+        </div>
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2017/11/20/C#获取所有实现某一接口的类/" rel="next" title="C#获取所有实现某一接口的类">
+                <i class="fa fa-chevron-left"></i> C#获取所有实现某一接口的类
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2018/11/04/计算机图形学-1-数学知识/" rel="prev" title="计算机图形学 01 数学知识">
+                计算机图形学 01 数学知识 <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
   </div>
 
 

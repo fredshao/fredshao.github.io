@@ -68,7 +68,7 @@
 
 
 
-  <meta name="keywords" content="Hexo, NexT">
+  <meta name="keywords" content="Unity3D,">
 
 
 
@@ -79,14 +79,18 @@
 
 
 
-<meta property="og:type" content="website">
-<meta property="og:title" content="tags">
-<meta property="og:url" content="http://yoursite.com/tags/index.html">
+<meta name="description" content="123456789101112131415161718192021222324252627282930313233private void MakeXForwardTarget()&amp;#123;    targetPos = target.position;    Vector3 currPos = transform.position;    Vector3 dir = currPos - tar">
+<meta name="keywords" content="Unity3D">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Unity3D在同一平面使X轴或Y轴朝向某个目标">
+<meta property="og:url" content="http://yoursite.com/2018/11/05/Unity3D在同一平面使X轴或Y轴朝向某个目标/index.html">
 <meta property="og:site_name" content="藏宝海湾">
+<meta property="og:description" content="123456789101112131415161718192021222324252627282930313233private void MakeXForwardTarget()&amp;#123;    targetPos = target.position;    Vector3 currPos = transform.position;    Vector3 dir = currPos - tar">
 <meta property="og:locale" content="default">
-<meta property="og:updated_time" content="2018-11-04T02:42:19.520Z">
+<meta property="og:updated_time" content="2018-11-06T09:42:44.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="tags">
+<meta name="twitter:title" content="Unity3D在同一平面使X轴或Y轴朝向某个目标">
+<meta name="twitter:description" content="123456789101112131415161718192021222324252627282930313233private void MakeXForwardTarget()&amp;#123;    targetPos = target.position;    Vector3 currPos = transform.position;    Vector3 dir = currPos - tar">
 
 
 
@@ -116,13 +120,13 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/tags/">
+  <link rel="canonical" href="http://yoursite.com/2018/11/05/Unity3D在同一平面使X轴或Y轴朝向某个目标/">
 
 
 
 
 
-  <title>tags | 藏宝海湾</title>
+  <title>Unity3D在同一平面使X轴或Y轴朝向某个目标 | 藏宝海湾</title>
   
 
 
@@ -237,40 +241,148 @@
 
   <div id="posts" class="posts-expand">
     
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope="" itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/11/05/Unity3D在同一平面使X轴或Y轴朝向某个目标/">
+
+    <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="fredshao">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope="" itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="藏宝海湾">
+    </span>
+
     
-    
-    <div class="post-block page">
       <header class="post-header">
 
-	<h1 class="post-title" itemprop="name headline">tags</h1>
-
-
-
-</header>
-
-      
-      
-      
-      <div class="post-body">
         
         
-          <div class="tag-cloud">
-            <div class="tag-cloud-title">
-                5 tags in total
-            </div>
-            <div class="tag-cloud-tags">
-              <a href="/tags/Python/" style="font-size: 21px; color: #6f6f6f">Python</a> <a href="/tags/Unity3D/" style="font-size: 30px; color: #111">Unity3D</a> <a href="/tags/服务器配置/" style="font-size: 12px; color: #ccc">服务器配置</a> <a href="/tags/计算机图形学/" style="font-size: 12px; color: #ccc">计算机图形学</a>
-            </div>
-          </div>
+          <h1 class="post-title" itemprop="name headline">Unity3D在同一平面使X轴或Y轴朝向某个目标</h1>
         
-      </div>
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2018-11-05T10:36:53+08:00">
+                2018-11-05
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
       
       
+
+      
+        <figure class="highlight csharp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">private</span> <span class="keyword">void</span> <span class="title">MakeXForwardTarget</span>(<span class="params"></span>)</span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    targetPos = target.position;</span><br><span class="line"></span><br><span class="line">    Vector3 currPos = transform.position;</span><br><span class="line">    Vector3 dir = currPos - targetPos;</span><br><span class="line">    <span class="keyword">float</span> dotValue = Vector3.Dot(-transform.right, dir.normalized);</span><br><span class="line">    <span class="keyword">float</span> angle = Mathf.Acos(dotValue) * Mathf.Rad2Deg;</span><br><span class="line">    Vector3 tempDir = Vector3.Cross(-transform.right, dir.normalized);</span><br><span class="line">    <span class="keyword">if</span> (tempDir.z &lt; <span class="number">0</span>)</span><br><span class="line">    &#123;</span><br><span class="line">        angle *= <span class="number">-1</span>;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    transform.RotateAround(currPos, Vector3.forward, angle);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">private</span> <span class="keyword">void</span> <span class="title">MakeYForwardTarget</span>(<span class="params"></span>)</span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    targetPos = target.position;</span><br><span class="line"></span><br><span class="line">    Vector3 currPos = transform.position;</span><br><span class="line">    Vector3 dir = currPos - targetPos;</span><br><span class="line">    <span class="keyword">float</span> dotValue = Vector3.Dot(-transform.up, dir.normalized);</span><br><span class="line">    <span class="keyword">float</span> angle = Mathf.Acos(dotValue) * Mathf.Rad2Deg;</span><br><span class="line">    Vector3 tempDir = Vector3.Cross(-transform.up, dir.normalized);</span><br><span class="line">    <span class="keyword">if</span> (tempDir.z &lt; <span class="number">0</span>)</span><br><span class="line">    &#123;</span><br><span class="line">        angle *= <span class="number">-1</span>;</span><br><span class="line">    &#125;</span><br><span class="line">    transform.RotateAround(currPos, Vector3.forward, angle);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
       
     </div>
     
     
     
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/Unity3D/" rel="tag"># Unity3D</a>
+          
+        </div>
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2018/11/05/Unity3D屏幕分辨率适应/" rel="next" title="Unity3D屏幕分辨率适应">
+                <i class="fa fa-chevron-left"></i> Unity3D屏幕分辨率适应
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2018/11/05/Python提取midi文件中的消息和时间/" rel="prev" title="Python提取midi文件中的消息和时间">
+                Python提取midi文件中的消息和时间 <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
   </div>
 
 
